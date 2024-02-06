@@ -78,9 +78,11 @@ packages:
   image_picker_cropper:
     dependency: "direct dev"
     description:
-      path: ".."
-      relative: true
-    source: path
+      path: "."
+      ref: master
+      resolved-ref: "9bb796aa556ff7dbc0679eb20ca754ea912d90c1"
+      url: "https://github.com/iamsagar14/image_picker_cropper.git"
+    source: git
     version: "0.0.1"
   lints:
     dependency: transitive
