@@ -1,4 +1,4 @@
-library fl_bootstrap;
+library image_picker_cropper;
 
 export 'src/responsive_row_column.dart';
-export 'src/image_picker_cropper.dart';
+export 'src/imagee_picker_cropper.dart';

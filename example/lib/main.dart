@@ -19,24 +19,29 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('Flutter Demo'),
         ),
-        body: Center(
-          child: ResponsiveRowColumn(
-            widget1: Container(
-              width: 100,
-              height: 100,
-              color: Colors.red,
+        body: Column(
+          children: [
+            Center(
+              child: ResponsiveRowColumn(
+                widget1: Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.red,
+                ),
+                widget2: Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.green,
+                ),
+                widget3: Container(
+                  width: 100,
+                  height: 100,
+                  color: Colors.yellow,
+                ),
+              ),
             ),
-            widget2: Container(
-              width: 100,
-              height: 100,
-              color: Colors.green,
-            ),
-            widget3: Container(
-              width: 100,
-              height: 100,
-              color: Colors.yellow,
-            ),
-          ),
+            ElevatedButton(onPressed: () {}, child: const Text('Pick Image'))
+          ],
         ),
       ),
     );
